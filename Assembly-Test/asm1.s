@@ -11,8 +11,8 @@ main:
 
 mov $4, %eax
 mov $1, %ebx #in - 0, out - 1
-mov $x, %ecx
-mov $5, %edx
+mov $z, %ecx
+mov $14, %edx
 int $0x80
 
 #return 0
